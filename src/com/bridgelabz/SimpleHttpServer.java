@@ -28,6 +28,7 @@ public class SimpleHttpServer {
             e.printStackTrace();
         }
     }
+
     public static void main(String[] args) {
         com.bridgelabz.SimpleHttpServer httpsServer = new com.bridgelabz.SimpleHttpServer();
         httpsServer.start(DEFAULT_PORT);
